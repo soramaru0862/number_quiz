@@ -1,0 +1,101 @@
+@charset 'UTF-8';
+
+html {
+  font-family: sans-serif;
+  font-size: 100%;
+}
+
+body {
+  width: 70vw;
+  min-width: 480px;
+  max-width: 900px;
+  padding: 0 4%;
+  margin: 0 auto;
+  font-size: 16px;
+}
+
+#home {
+  padding: 0 30px;
+  background-color: #fdfdfd;
+  border-radius: 10px;
+  box-shadow: 0 0 5px rgba(0, 0, 0, 0.6);
+}
+
+h1 {
+  padding-top: 20px;
+  text-align: center;
+}
+span {
+  color: red;
+}
+.info span {
+  font-size: 18px;
+  font-weight: bold;
+}
+
+.lastResult {
+  padding: 10px 0;
+  margin: 0 auto;
+  font-size: 20px;
+  font-weight: bold;
+  color: white;
+  text-align: center;
+  border-radius: 10px;
+}
+
+.name {
+  margin-bottom: 25px;
+  font-size: 20px;
+  text-align: center;
+}
+
+.lowOrHi {
+  padding-bottom: 10px;
+  text-align: center;
+}
+
+button {
+  display: block;
+  padding: 10px 15px;
+  margin: 0 auto;
+  cursor: pointer;
+  background-color: aqua;
+  border: none;
+  border-radius: 10px;
+  outline: none;
+  box-shadow: 0 0 3px rgba(0, 0, 0, 0.5);
+  transition: 0.5s;
+}
+button:hover {
+  background-color: rgba(0, 174, 255, 0.8);
+}
+
+.guessSubmit {
+  margin: 0 auto;
+  cursor: pointer;
+  background-color: aqua;
+  border: none;
+  border-radius: 5px;
+  outline: none;
+  box-shadow: 0 0 3px rgba(0, 0, 0, 0.5);
+  transition: 0.5s;
+}
+.guessSubmit:hover {
+  background-color: rgba(0, 174, 255, 0.8);
+}
+
+.guessField {
+  border: solid 2px rgba(0, 0, 0, 0.7);
+  border-radius: 5px;
+}
+
+.info {
+  width: fit-content;
+  padding-bottom: 10px;
+  margin: 0 auto;
+}
+
+.form {
+  width: fit-content;
+  margin: 0 auto;
+}

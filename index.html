@@ -1,0 +1,48 @@
+<!DOCTYPE html>
+<html lang="ja">
+
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>数字当てゲーム</title>
+  <!-- css -->
+  <link href="https://unpkg.com/sanitize.css" rel="stylesheet" />
+  <link href="https://unpkg.com/sanitize.css" rel="stylesheet" />
+  <link rel="stylesheet" href="style.css" />
+</head>
+<html>
+
+<body>
+  <div id="home">
+    <h1><span>数字</span>当てゲーム</h1>
+
+    <p class="name"></p>
+    <div class="info-container">
+      <p class="info">
+        『<span>1</span>』から『<span>100</span>』までの数字を当ててみて！
+        <br />
+        10回以内に当てられるでしょうか。
+        <br />
+        選んだ数字が大きいか小さいかを表示します。
+      </p>
+    </div>
+
+    <div class="form">
+      <label for="guessField">予想を入力してね:</label>
+      <input placeholder="半角数字" type="text" id="guessField" class="guessField" maxlength="3" />
+      <input type="submit" value="予想を入力" class="guessSubmit" />
+    </div>
+
+    <div class="resultParas">
+      <p class="guesses"></p>
+      <p class="lastResult"></p>
+      <p class="lowOrHi"></p>
+    </div>
+  </div>
+
+  <script src="js/app.js"></script>
+</body>
+
+</html>
+
+</html>
